@@ -20,7 +20,7 @@ b = 0.1
 # Weighted sum
 z = (w1 * x1) + (w2 * x2) + b
 # Activation output
-a = sigmoid(z)-
+a = sigmoid(z)
 
 print("z value:", z)
 print("Activated output:", a)
