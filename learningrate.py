@@ -26,5 +26,17 @@ loss = (y - y_hat) ** 2
 print(f"Loss (MSE): {loss:.3f}") # loss function 
 
 
+dL_dw1 = -0.02
+dL_dw2 = -0.04   # assuming gradients from backpropagation 
+
+# gradient descent update 
+w1_new = w1 - alpha * dL_dw1
+w2_new = w2 - alpha * dL_dw2
+
+
+print(f"Updated w1: {w1_new:.3f}")
+print(f"Updated w2: {w2_new:.3f}") # updated weights 
+
+
 
 
