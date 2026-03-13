@@ -39,3 +39,5 @@ plt.xlabel("Epoch")
 plt.ylabel("Loss")
 plt.grid(True)
 plt.show()
+
+#epoch - forward pass / back propagation 
